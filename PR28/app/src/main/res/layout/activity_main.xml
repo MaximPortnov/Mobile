@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity" >
+
+    <ImageView
+        android:id="@+id/sky"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:contentDescription="@string/sky"
+        android:src="@drawable/sky" />
+
+    <ImageView
+        android:id="@+id/sun"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:contentDescription="@string/sun"
+        android:scaleType="fitCenter"
+        android:src="@drawable/sun" />
+
+    <ImageView
+        android:id="@+id/grass"
+        android:layout_width="fill_parent"
+        android:layout_height="150dp"
+        android:layout_alignParentBottom="true"
+        android:contentDescription="@string/grass"
+        android:src="@drawable/grass" />
+
+    <ImageView
+        android:id="@+id/train"
+        android:layout_width="235dp"
+        android:layout_height="265dp"
+        android:layout_marginStart="16dp"
+        android:layout_marginTop="416dp"
+        android:src="@drawable/train"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <ImageView
+        android:id="@+id/imageView3"
+        android:layout_width="169dp"
+        android:layout_height="258dp"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginEnd="192dp"
+        android:layout_marginBottom="43dp"
+        android:src="@drawable/cool_cat" />
+
+</RelativeLayout>
