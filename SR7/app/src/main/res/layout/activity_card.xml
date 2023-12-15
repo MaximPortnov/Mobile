@@ -4,6 +4,7 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
+    android:background="#FFFFFF"
     tools:context=".CardActivity">
 
     <ImageView
@@ -91,8 +92,8 @@
         android:layout_marginTop="468dp"
         android:background="#F5F5F9"
         android:ems="10"
-        android:inputType="date"
         android:hint="Дата рождения"
+        android:inputType="date"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent" />
 
