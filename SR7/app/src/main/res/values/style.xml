@@ -1,0 +1,6 @@
+<resources>
+    <style name="YourCustomTheme" parent="Theme.AppCompat.Light.NoActionBar">
+        <item name="colorPrimary">#0000FF</item> <!-- Здесь указывается цвет полоски -->
+    <!-- другие настройки темы -->
+    </style>
+</resources>

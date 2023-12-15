@@ -1,0 +1,14 @@
+<selector xmlns:android="http://schemas.android.com/apk/res/android">
+    <!-- Состояние нажатия -->
+    <item android:state_pressed="true">
+        <shape android:shape="oval">
+            <solid android:color="#0000FF"/> <!-- Цвет при нажатии -->
+        </shape>
+    </item>
+    <!-- Состояние по умолчанию -->
+    <item>
+        <shape android:shape="oval">
+            <solid android:color="#F5F5F9"/> <!-- Цвет по умолчанию -->
+        </shape>
+    </item>
+</selector>

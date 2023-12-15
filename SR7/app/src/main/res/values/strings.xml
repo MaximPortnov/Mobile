@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name">sr7</string>
+    <string-array name="genders_array">
+        <item>Мужской</item>
+        <item>Женский</item>
+    </string-array>
+</resources>
