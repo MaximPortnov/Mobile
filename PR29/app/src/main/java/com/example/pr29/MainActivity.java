@@ -1,12 +1,18 @@
 package com.example.pr29;
 
 import android.content.Intent;
+import android.content.pm.PackageManager;
+import android.content.pm.ResolveInfo;
 import android.net.Uri;
 import android.os.Bundle;
+import android.util.Log;
 import android.view.View;
 import android.widget.ImageButton;
+import android.widget.Toast;
 
 import androidx.appcompat.app.AppCompatActivity;
+
+import java.util.List;
 
 public class MainActivity extends AppCompatActivity implements View.OnClickListener {
 
@@ -53,9 +59,9 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
     private void openMaps() {
         Uri gmmIntentUri = Uri.parse("geo:0,0?q=Krasnyy Prospekt,72, Novosibirsk, Novosibirskaya oblast', Russia, 630091");
         Intent mapIntent = new Intent(Intent.ACTION_VIEW, gmmIntentUri);
-        mapIntent.setPackage("com.google.android.apps.maps");
         startActivity(mapIntent);
     }
+
 
     private void openPhone() {
         Intent intent = new Intent(Intent.ACTION_DIAL);
